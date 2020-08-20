@@ -13,5 +13,5 @@ const returnRolls = function(diceRoll) {
   }
   return `Rolled ${diceRoll} dice: ${result.join(', ')}`;
 }
-
+// test
 console.log(returnRolls(process.argv[2]));
